@@ -25,3 +25,4 @@ RUN chown -R 1001:1001 /var/log/CTFd /var/uploads
 USER 1001
 EXPOSE 8000
 ENTRYPOINT ["/opt/CTFd/docker-entrypoint.sh"]
+CMD []
