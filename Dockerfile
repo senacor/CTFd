@@ -23,5 +23,4 @@ RUN chown -R 1001:1001 /opt/CTFd
 RUN chown -R 1001:1001 /var/log/CTFd /var/uploads
 
 USER 1001
-EXPOSE 8000
 CMD ["/opt/CTFd/docker-entrypoint.sh"]
